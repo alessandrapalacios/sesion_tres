@@ -1,24 +1,134 @@
-
-.container-header {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    height: 150px;
-    background-color: rgb(114, 204, 162);
+li {
+    display: inline;
+    margin: 0px 25px 0px 25px;
+    text-align: center;
 }
 
-.container-section-promo {
-    display: flex;
+.header-padre {
+    margin: 40px 20px 0 20px;
+    font-size: 0;
+    height: 45px;
+    font-family: sans-serif;
+}
+
+.header-padre > * {
+    display: inline-block;
+    font-size: 16px;
+    vertical-align: middle;
+    height: 100%;
+    line-height: 100%;
+}
+
+.logo {
+    width: 15%;
+}
+
+.logo > img {
+    height: 100%;
+}
+
+.barra-nav{
     width: 70%;
-    margin: 100px auto;
+    text-align: center;
+    color: #025157;
+    font-weight: 500;
+}
+
+.login{
+    width: 15%;
+    text-align: right;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.login > * {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.login a {
+    color: #67b54b;
+}
+
+.login button{
+    color: white;
+    background-color: #67b54b;
+    padding : 14px 14px 12px 12px;
+    border-radius: 5px;
+    border: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+body{
+    background-color: #fffbf7;
+}
+
+.publish h3{
+    color: #025157;
+    font-size:40px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+p {
+    margin-top: 20px;
+}
+
+.publish p {
+    color: #025157;
+    margin-right: 20px;
+}
+.publish form {
+    display: flex;
+}
+.publish input {
+    border-radius: 5px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    padding: 20px 6px 20px 15px;
+}
+.publish button {
+    background-color: #025157;
+    color: white;
+    border-radius: 5px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border: 0;
+    padding: 20px;
+    
+}
+
+.publish p:nth-child(2) {
+    color: #343434;
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: "Open Sans", sans-serif;
+}
+
+.publish{
+    margin-left: 25px;
+}
+
+.video_img {
+    display: flex;
+    flex-direction: column;
+    margin-right: 25px;
     align-items: center;
     justify-content: center;
 }
 
+.video_img img{
+    width: 130px;
+    margin-top: 12px;
 
+}
 
-.item-article{
-    width: 30%;
-    height: 100px;
-    background-color: aqua;
+.publicity {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+
 }
