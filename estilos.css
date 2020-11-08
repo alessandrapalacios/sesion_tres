@@ -15,7 +15,9 @@
     justify-content: center;
 }
 
-
+body {
+    background-color: rgb(62, 126, 179);
+}
 
 .item-article{
     width: 30%;
