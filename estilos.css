@@ -1,3 +1,106 @@
+li {
+    display: inline;
+    margin: 0px 25px 0px 25px;
+    text-align: center;
+}
+
+.header-padre {
+    margin: 40px 20px 0 20px;
+    font-size: 0;
+    height: 45px;
+    font-family: sans-serif;
+}
+
+.header-padre > * {
+    display: inline-block;
+    font-size: 16px;
+    vertical-align: middle;
+    height: 100%;
+    line-height: 100%;
+}
+
+.logo {
+    width: 15%;
+}
+
+.logo > img {
+    height: 100%;
+}
+
+.barra-nav{
+    width: 70%;
+    text-align: center;
+    color: #025157;
+    font-weight: 500;
+}
+
+.login{
+    width: 15%;
+    text-align: right;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.login > * {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.login a {
+    color: #67b54b;
+}
+
+.login button{
+    color: white;
+    background-color: #67b54b;
+    padding : 14px 14px 12px 12px;
+    border-radius: 5px;
+    border: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+body{
+    background-color: #fffbf7;
+}
+
+
+.publish h3{
+    color: #025157;
+    font-size:40px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: "Alegreya", serif;
+}
+
+.publish p {
+    color: #025157;
+    margin-right: 20px;
+}
+.publish form {
+    display: flex;
+}
+.publish input {
+    border-radius: 5px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.publish button {
+    background-color: #025157;
+    color: white;
+    border-radius: 5px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border: 0;
+}
+
+.publish p:nth-child(2) {
+    color: #343434;
+    font-size: 16px;
+}
+
 
 .container-header {
     display: flex;
@@ -7,6 +110,11 @@
     background-color: rgb(114, 204, 162);
 }
 
+
+
+
+
+/*
 .container-section-promo {
     display: flex;
     width: 70%;
@@ -15,12 +123,16 @@
     justify-content: center;
 }
 
+<<<<<<< HEAD
 body {
     background-color: rgb(62, 126, 179);
 }
 
+=======
+>>>>>>> 418a1961224ced258ce9943bb54ac0f503bc8c4b
 .item-article{
     width: 30%;
     height: 100px;
     background-color: aqua;
 }
+*/

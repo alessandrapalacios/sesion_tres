@@ -5,25 +5,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv = "X-UA-Compatibe" content="ie=edge">
     <link rel="stylesheet" href="estilos.css">
-    <title>Document</title>
+    <title> Matcha </title>
 </head>
 <body>
 
-    <header class= "container-header"> 
-        <h1> Mi header</h1>
-            <nav>
-            </nav>
+    <header class= "header-padre"> 
+        <a href = "index.html" class="logo"> 
+            <img src="https://getmatcha.com/wp-content/themes/getmatcha/img/footer_logo.svg" alt="Logo"/>
+        </a>
+        <nav class="barra-nav">  
+            <ul>
+                <li> <a href="/"> Platform  </a> </li>
+                <li> <a href="/"> Pricing  </a> </li>
+                <li> <a href="/">  Customers  </a> </li>
+                <li> <a href="/">  Resources  </a> </li>
+                <li> <a href="/">  About  </a> </li>
+            </ul>
+        </nav>
+        <div class= "login">
+            <a href="/"> Sign in </a>
+            <button> Start Free Trial </button>
+        </div>
     </header>
 
     <main>
+<<<<<<< HEAD
         <section>
             <!--
             <video src="https://cdn.videvo.net/videvo_files/video/premium/video0036/small_watermarked/computer_code00_preview.mp4">
             </video>
             -->
             <video controls poster="https://aplusweb.design/wp-content/uploads/2017/11/html5-and-css3.png">
+=======
+        <section class = "publicity">
+            <article>
+                <video controls poster="https://aplusweb.design/wp-content/uploads/2017/11/html5-and-css3.png">
+>>>>>>> 418a1961224ced258ce9943bb54ac0f503bc8c4b
                 
-                <source type="video/web"
+                <source type="video/webm"
                  src="https://cdn.videvo.net/videvo_files/video/premium/video0036/small_watermarked/computer_code00_preview.mp4"
                 />
                 
@@ -31,27 +50,28 @@
                  type="video/mp4"
                  src="https://cdn.videvo.net/videvo_files/video/premium/video0036/small_watermarked/computer_code00_preview.mp4"
                 />
+                </video>
+            </article>
 
-            </video>
-
-            <iframe width="420" height="236"
-                src="https://www.youtube.com/embed/tgbNymZ7vqY"
-            >
-            </iframe>
-
+            <article class = "publish">
+                <h3> Publish to your blog in minutes, not hours </h3>
+                <p> 
+                    Your blog is your most powerful asset to build, engage, and retain a loyal audience.
+                    But you don’t have hours to create content that may or may not work. With Matcha,
+                     instantly publish from our library of 10,000+ professionally written articles and 
+                     build your email list faster with our powerful conversion tool.    
+                </p>
+                <form>
+                    <p>
+                        Start publishing today:
+                    </p>
+                    <input type="email" id = "email"  name = "email" required placeholder ="Enter email">
+                    <button> Start My Trial </button>
+                </form>
+            </article>
         </section>
     </main>
-    <!--
-    <section class="container-section-promo">
 
-        <video controls></video>
-
-        <article class="item-article">
-
-        </article>
-
-    </section>
-    -->
     <footer>  
 
     </footer>
